@@ -2,7 +2,7 @@
 # Link Project :https://github.com/Muddasir35/Telegram-DDos-bot
 # writers : Esfelurm / Mr Root / Hydra
 # Broadcasting channel Telegram : @Team_Exploit
-# Tool Vip BotECS In channel : @KnightGuardian59
+# 
 
 token = 'AAEIMTsZ9WDC-Kb0PcCcYNC1vcha9V1x2Y0  '
 chat_id = '6857704672'
